@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Diplomata&family=Emblema+One&family=Galada&family=Honk&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Pixelify+Sans:wght@400..700&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Diplomata&family=Emblema+One&family=Galada&family=Honk&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Pixelify+Sans:wght@400..700&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Atma:wght@300;400;500;600;700&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Diplomata&family=Emblema+One&family=Galada&family=Honk&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Pixelify+Sans:wght@400..700&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Atma:wght@300;400;500;600;700&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Diplomata&family=Emblema+One&family=Galada&family=Honk&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Pixelify+Sans:wght@400..700&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agbalumo&family=Atma:wght@300;400;500;600;700&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Diplomata&family=Emblema+One&family=Galada&family=Honk&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Pixelify+Sans:wght@400..700&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Convergence&family=Dancing+Script:wght@400..700&family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Indie+Flower&family=Mr+Dafoe&family=Pixelify+Sans:wght@400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Rubik+Doodle+Shadow&display=swap');
+
+.poke_background{
+    background-color: black;
+    padding: 25px;
+    border: darkblue solid 14px;
+    border-radius: 20px;
+    background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/pokemon-trading-card-game-fondn-joaquin-corbalan.jpg);
+}
+
+.pokeinfo{
+    color: black;
+}
+ 
+/*============================*/
+/*         Poke image         */
+/*============================*/
+.img_container{
+    background-image: url(https://www.vandelaydesign.com/wp-content/uploads/00-featured-pixel-art-inspiration-environment.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: goldenrod solid 12px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+/*============================*/
+/*      Poke ID & name        */
+/*============================*/
+.pokeidName_container{
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom right, rgb(184, 134, 11), yellow,rgb(184, 134, 11));
+}
+.poke_id{
+    color: yellow;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: "Agbalumo", system-ui;
+    text-shadow: 
+     -1px -1px 0 darkblue,  
+     1px -1px 0 darkblue,
+    -1px  1px 0 darkblue,
+     1px  1px 0 darkblue,
+    -2px -2px 0 darkblue,
+     2px -2px 0 darkblue,
+    -2px  2px 0 darkblue,
+     2px  2px 0 darkblue,
+    -3px -3px 0 darkblue,
+     3px -3px 0 darkblue,
+    -3px  3px 0 darkblue,
+     3px  3px 0 darkblue;
+}
+.poke_name{
+    font-family: "Playfair Display SC", serif;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+/*============================*/
+/*     Parent container       */
+/*============================*/
+.pokeParent_container{
+    border: goldenrod solid 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom right,darkblue, white, blue);
+}
+
+.pokeH-Weight_container,
+.poketype_container,
+.skills_container {
+    flex-grow: 1;
+}
+/*============================*/
+/*    weight & height        */
+/*============================*/
+.pokeH-Weight_container{
+    text-align: center;
+}
+.poke_weight{
+    font-weight: bolder;
+    color: black;
+    padding-bottom:5px;
+    padding-top: 5px;
+    font-family: "Playfair Display SC", serif;
+    font-size: 20px;
+}
+.poke_weight span:last-child{
+    color: black;
+    font-family: "Lugrasimo", cursive;
+}
+.poke_height{
+    font-family: "Playfair Display SC", serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+}
+.poke_height span:last-child{
+    color: black;
+    font-family: "Lugrasimo", cursive;
+}
+/*============================*/
+/*          Type             */
+/*============================*/
+.poketype_container{
+    text-align: center;
+}
+.type_title{
+    color: black;
+    padding-top: 5px;
+    font-family: "Playfair Display SC", serif;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.type_list{
+    color: black;
+}
+.poketype_item{
+    color: black;
+    font-family: "Lugrasimo", cursive;
+    font-weight: bolder;
+}
+/*============================*/
+/*         Skills             */
+/*============================*/
+.skills_container{
+    padding-bottom: 5px;
+}
+.skills_title{
+    color: black;
+    padding-top: 5px;
+    font-family: "Playfair Display SC", serif;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.skills_item{
+    color: black;
+    font-family: "Lugrasimo", cursive;
+    font-weight: bolder;
+   
+}
+
+/*====================================*/
+/*  Parent container Stats & Movement */
+/*====================================*/
+
+.Parentcontainer_statmove{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+
+.stats_container,.movement_container {
+    flex-grow: 1;
+}
+/*============================*/
+/*           Stats            */
+/*============================*/
+.stats_container{
+    background: linear-gradient(to bottom right, rgb(184, 134, 11), yellow,rgb(184, 134, 11));
+    
+    border: darkblue solid 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.stats_title{
+color: black;
+font-family: "Playfair Display SC", serif;
+font-weight: bolder;
+}
+
+.stats_item{
+color: black;
+font-family: "Acme", sans-serif;
+}
+.stats_bar{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+ 
+}
+.stats_prog{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+
+/*============================*/
+/*         Movements          */
+/*============================*/
+.movement_container{
+    background: linear-gradient(45deg,darkblue, white, blue);
+    border: goldenrod solid 10px;
+}
+.movement_title{
+    color: black;
+    font-size: 30px;
+    font-family: "Playfair Display SC", serif;
+    font-weight: bolder;
+}
+.movement_list{
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    gap: 8px;
+    font-family: "Acme", sans-serif;
+}
+
+.movement_skills{
+    display: flex;
+    text-decoration: underline;
+    color: black;
+}

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agbalumo&family=Atma:wght@300;400;500;600;700&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Diplomata&family=Emblema+One&family=Galada&family=Holtwood+One+SC&family=Honk&family=Irish+Grover&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Pixelify+Sans:wght@400..700&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agbalumo&family=Atma:wght@300;400;500;600;700&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Diplomata&family=Emblema+One&family=Galada&family=Holtwood+One+SC&family=Honk&family=Irish+Grover&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Patrick+Hand+SC&family=Pixelify+Sans:wght@400..700&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agbalumo&family=Atma:wght@300;400;500;600;700&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Castoro+Titling&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Diplomata&family=Emblema+One&family=Galada&family=Holtwood+One+SC&family=Honk&family=Irish+Grover&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Patrick+Hand+SC&family=Pixelify+Sans:wght@400..700&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Convergence&family=Dancing+Script:wght@400..700&family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Indie+Flower&family=Mr+Dafoe&family=Pixelify+Sans:wght@400..700&family=Rubik+Doodle+Shadow&display=swap');
+*, 
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*=====================*/
+/*     Constainer      */
+/*=====================*/
+.poke-container{
+    display: inline-block;
+}
+/*=====================*/
+/*         Image       */
+/*=====================*/
+.pokecard_img{
+    width: 70%;
+    z-index: 10; ;
+}
+/*=====================*/
+/*      PokeCard       */
+/*=====================*/
+.pokecard{
+    width: 180px;
+    margin: 10px;
+    border-radius: 15px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border: gold solid 6px;
+    justify-content: start;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, darkblue, white, darkblue);
+ 
+} 
+.pokecard:hover{
+    transform: scale(1.07);
+   
+}
+.pokecard_name2{
+    font-family: "Azeret Mono", monospace;
+}
+.pokecard_back{
+    position: absolute;
+    width: 90%;
+    height: 100px;
+    background-color: black;
+    z-index: 0;
+    border-radius: 10px 10px 0 0;
+   
+}
+/*=====================*/
+/*       Type          */
+/*=====================*/
+.type_title2{
+    padding-top: 5px;
+    font-family: "Castoro Titling", serif;
+    font-weight: bolder;
+
+}
+.pokecard_types{
+    display: flex;
+    font-family: "Patrick Hand SC", cursive;
+    
+}
+.slot2::before {
+    content: '/';
+    margin: 0 5px;
+}
+.pokecard hr{ 
+    width: 90%;
+    margin: 10px 0;
+}
+/*=====================*/
+/*       Stats         */
+/*=====================*/
+.pokecard_stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.pokecard_stats li{
+    font-family: "Patrick Hand SC", cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*=====================*/
+/*        Color        */
+/*=====================*/
+
+.grass{
+   background-image: url(https://th.bing.com/th/id/OIP.xPq9NnhIK3mLPeRgDrIJWwHaD4?w=1200&h=630&rs=1&pid=ImgDetMain);
+   background-size: cover;
+}
+.fire{
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/OIP.3ZzYMFZkGErr6nkK9l1yaAHaEo?w=285&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+}
+.water{
+    background-size: cover;
+    background-image: url(https://wallpaperaccess.com/full/118488.jpg)
+
+}
+.bug{
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/OIP.89NfXvabV8JgunaLD4rdvgHaEo?rs=1&pid=ImgDetMain)
+}
+.electric{
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/OIP.9eMSm1VgZNBvQI-0NcWx_AHaEK?rs=1&pid=ImgDetMain)
+}
+.rock, .ground{
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/R.1d91dd0b9e5dfb4ec61d84b3d667467f?rik=aNj3RxxA0LdKdw&riu=http%3a%2f%2ffc09.deviantart.net%2ffs70%2ff%2f2012%2f343%2f1%2ff%2fmugen_stage__dragon_ball_desert_by_legendarysatera-d5ni347.png&ehk=eZcLzERjhKKFfg4sypaA6FhF%2b8EfgeG6WAHZKgYtmsY%3d&risl=&pid=ImgRaw&r=0)
+}
+
+.normal{
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/OIP.IzA_Y7EOSGQmLtNgVCDwpwHaEj?w=832&h=512&rs=1&pid=ImgDetMain)
+}
+.ghost{
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/originals/e9/a7/b0/e9a7b0a57d4a7173b723e118ccc075e8.jpg)
+}
+
+.poison{
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/OIP.GYPC1a0PkTZiww52LZWVWgHaEK?rs=1&pid=ImgDetMain)
+}
+.fighting{
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/OIP.WK_vIuM1ex-9ZgwcaC_hlwHaHa?w=2000&h=2000&rs=1&pid=ImgDetMain)
+}
+.flying{
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/originals/96/fc/9e/96fc9e4fcbf4d3f7eb23681deead2a3b.jpg);
+}
+.dark{
+background-size: cover;
+background-image: url(https://th.bing.com/th/id/R.dfa3a522cdce9a05f8f77db891f44a73?rik=Fe025%2frBxWzBtg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fd%2f0%2fe%2f195170.jpg&ehk=wlnh8JBGiPvdBK3McXiokfOGMgWD4UfDEijnGSQIAhQ%3d&risl=&pid=ImgRaw&r=0);
+}
+.steel{
+background-size: cover;
+background-image: url(https://th.bing.com/th/id/R.06c6118de8228cf75e669b98c18bcd1e?rik=JFn7%2btNZ5Wpabw&pid=ImgRaw&r=0);
+}
+.psychic{
+background-size: cover;
+background-image: url(https://th.bing.com/th/id/R.0270b37b47c71478ee4bd3ad69547e8e?rik=V4QxBEQzvpupqw&riu=http%3a%2f%2flh3.googleusercontent.com%2faJnhjpkwsuLaZ5X4k_AhrqOSpUneJ5EFp6yM0pKqOVaddMOHUYBANS_KnJA7ZOMFroc1%3dw300&ehk=b%2bWaA7EXlXSY0ZYVIwXikZfBjxgE6YYfE5STBJGtpEQ%3d&risl=&pid=ImgRaw&r=0);
+}
+.ice{
+background-size: cover;
+background-image: url(https://cdna.artstation.com/p/assets/images/images/036/597/412/large/gonzo-snow-niflheim.jpg?1618098512);
+}
+.dragon{
+background-size: cover;
+background-image: url(https://img.freepik.com/premium-photo/lonely-mountain-fantasy-landscape_906149-2395.jpg);
+}
+.fairy{
+background-size: cover;
+background-image: url(https://th.bing.com/th/id/OIP.NKnsQxCPkzU5BMbTnoaQtAHaEK?rs=1&pid=ImgDetMain);
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agbalumo&family=Atma:wght@300;400;500;600;700&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Diplomata&family=Emblema+One&family=Galada&family=Holtwood+One+SC&family=Honk&family=Irish+Grover&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Pixelify+Sans:wght@400..700&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agbalumo&family=Atma:wght@300;400;500;600;700&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Castoro+Titling&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Diplomata&family=Emblema+One&family=Galada&family=Holtwood+One+SC&family=Honk&family=Irish+Grover&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Patrick+Hand+SC&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Rampart+One&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cad4b52e-f6b1-432f-9035-a5f4853bcf15/d79j5ub-d5d98d2d-cb50-4806-a67b-103b4d08280b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9jYWQ0YjUyZS1mNmIxLTQzMmYtOTAzNS1hNWY0ODUzYmNmMTUvZDc5ajV1Yi1kNWQ5OGQyZC1jYjUwLTQ4MDYtYTY3Yi0xMDNiNGQwODI4MGIuZ2lmIn1dXX0.WouG2UZ_AiFs_MC_IvMalgNT6-ip_KjKFSdTFtqn-_Y);
+  text-align: center;
+  background-position: center;
+  background-size: cover ; 
+  min-height: 100vh;
+}
+/*==============*/
+/*=====Reset=====*/
+/*==============*/
+*, 
+*::after,
+*::before { 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+input,
+button{
+  display: inline-block;
+  cursor: pointer;
+font-family: inherit;
+text-align: center;
+}
+ul{
+  list-style: none;
+}
+a{
+  color: dodgerblue;
+}
+a:focus{
+  color: violet;
+}
+
+
+
+.container_outside2{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 10px;
+}
+.inside_container2{
+
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: right;
+}
+.pokemon_title{
+  font-size: 35px;
+  font-family: "Irish Grover", system-ui;
+  color: yellow;
+  text-shadow: 
+  -1px -1px 0 darkblue,  
+  1px -1px 0 darkblue,
+  -1px 1px 0 darkblue,
+  1px 1px 0 darkblue,
+  -2px -2px 0 darkblue,  
+  2px -2px 0 darkblue,
+  -2px 2px 0 darkblue,
+  2px 2px 0 darkblue;
+ 
+}
+.inside_container3{
+  display: flex;
+  flex-direction: row;
+  width: 55%;
+   justify-content: left;
+   
+  }
+.pokedex_img{
+  background-size: contain;
+  background-position: left;
+  background-image: url(https://repository-images.githubusercontent.com/402959678/1a34c4ec-38e3-41c0-a958-5ab9bc8eb49c);
+  background-repeat: no-repeat;
+  width: 100%;
+
+}
+.custom-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.btn_play {
+  background-color: blue;
+  border-radius:10px 10px 0 0;
+ border: black solid 2px;
+}
+.btn_play:hover {
+background-color: darkblue;
+border: black solid 2px;
+}
+.btn_stop {
+  background-color: red;
+  border-radius:10px 10px 0 0;
+  border: black solid 2px;
+ 
+}
+.btn_stop:hover {
+  border: black solid 2px;
+  background-color: crimson;
+}
+
+.btn_play ion-icon,
+.btn_stop ion-icon {
+  font-size: 3em; /* Adjust the font size as needed */
+}
+
+
+.parent_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.footer{
+  background-color:gold;
+  border: darkblue solid 6px;
+  font-family: "Press Start 2P", system-ui; 
+text-align: center;
+margin-top: 150% ;
+color: black;
+}

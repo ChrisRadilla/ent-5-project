@@ -1,0 +1,62 @@
+
+
+*,  
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*====================*/
+/*     containers     */
+/*====================*/
+
+.container_outside{
+    display: flex;
+  justify-content: center;
+}
+.inside_container{
+    display: flex;
+    flex-direction: column;
+    border: gold 6px solid;
+    background-image: linear-gradient(to bottom right, darkblue, white, darkblue);
+
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+/*====================*/
+/*       title        */
+/*====================*/
+  
+.pokedex_title{
+color: black;
+}
+.pokedex_title span{
+    color:white;
+}
+
+/*====================*/
+/*       Button       */
+/*====================*/
+  .btn-search{
+    background-color: yellow;  
+    color:darkblue;
+    border: darkblue solid 3px;
+  }  
+  .btn-search:hover{
+    background-color: darkblue;  
+    color: yellow;
+    border: yellow solid 3px;
+    
+}    
+.search_input{
+    border: black solid 2px;
+    }
+
+
+

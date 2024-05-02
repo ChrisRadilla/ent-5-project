@@ -1,0 +1,44 @@
+/*===========================*/
+/*          Trainer           */
+/*===========================*/
+
+.pokeHeader_trainer{
+    background-image: linear-gradient(to bottom right, goldenrod, yellow, goldenrod);
+   width: 80%;
+   height: 100%;
+   border: darkblue solid 6px;
+   object-position: center;
+   align-items: center;
+    border-radius: 15px;
+   padding: 10px;
+   padding: 10px;
+} 
+.trainer_title{
+    color: darkblue;
+}
+.give_name{
+color: black;
+}
+.parent_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*===========================*/
+/*          Button           */
+/*===========================*/
+.start_btn{
+    background-color: yellow;
+    color:darkblue;
+    border: darkblue solid 3px;
+}
+.start_btn:hover{
+    background-color: darkblue;
+    color: yellow;
+    border: yellow solid 3px;
+}
+
+.start_input{
+    border: black solid 2px;
+}
