@@ -31,6 +31,9 @@ function App() {
     }
   }
 
+  useEffect(() => {
+    document.title = 'PoKeDeX-CR';
+  }, []);
   return (
     <div>
       <div className='container_outside2'>

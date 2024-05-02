@@ -32,7 +32,7 @@ const handleSubmit = (event) => {
   setInputValue(textInput.current.value.toLowerCase().trim());
   textInput.current.value = '';
 };
-
+ 
 
 const pokeSearch = (poke) => {
   console.log("Input Value:", inputValue);
